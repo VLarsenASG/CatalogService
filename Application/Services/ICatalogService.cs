@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public interface IMovieService
+    public interface ICatalogService
     {
-        Task<IReadOnlyList<MovieIdDto>> GetCalatogAsync();
+        Task<IReadOnlyList<VideoIdDto>> GetCalatogAsync();
 
-        Task<MovieIdDto> GetMovieByIdAsync(Guid movieId);
+        Task<VideoIdDto> GetCatalogByIdAsync(Guid videoId);
 
     }
 }

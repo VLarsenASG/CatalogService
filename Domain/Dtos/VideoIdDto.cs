@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Domain.Dtos;
 
-public record MovieIdDto(Guid MovieId);
+public record VideoIdDto(Guid MovieId, string CoverArt);
 
     

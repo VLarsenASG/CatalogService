@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Application.Repository
 {
-    public interface IMovieRepository
+    public interface ICatalogRepository
     {
 
-        Task<IReadOnlyList<MovieIdDto>> GetCatalogAsync();
-        Task<MovieIdDto> GetMovieIdAsync(Guid MovieId);
+        Task<IReadOnlyList<VideoIdDto>> GetCatalogAsync();
+        Task<VideoIdDto> GetMovieIdAsync(Guid VideoId);
 
     }
 }

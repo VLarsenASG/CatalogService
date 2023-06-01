@@ -8,7 +8,7 @@ namespace Domain.Dtos
 {
     public class CatalogDto
     {
-        public Dictionary<Guid, MovieIdDto>? Catalog { get; set; }
+        public Dictionary<Guid, VideoIdDto>? Catalog { get; set; }
    
     }
 }
